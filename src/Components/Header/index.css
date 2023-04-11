@@ -1,0 +1,103 @@
+.section-header {
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    padding-bottom: 4rem;
+}
+
+
+/* - - - - - - - - - -   Imagen   - - - - - - - - - - */
+
+
+.imagen-header {
+    width: 100%;
+}
+
+
+/* - - - - - - - - - -   Parte Dos   - - - - - - - - - - */
+
+
+.container-general-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-rosa {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #EA0273;
+    color: #fff;
+}
+
+.container-rosa h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container-rosa p {
+    font-size: 3.2rem;
+    font-weight: 300;
+    letter-spacing: .3rem;
+}
+
+.container-button-uno {
+    width: 100%;
+    height: auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button-uno button {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    background: transparent;
+    border-radius: 1.6rem;
+    border: solid 3px #000;
+    padding: 2rem;
+}
+
+.container-celeste {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #83DBBA;
+    color: #000;
+}
+
+.container-celeste h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container-celeste p {
+    font-size: 3.2rem;
+    font-weight: 300;
+    letter-spacing: .3rem;
+}
+
+.container-button-dos {
+    width: 100%;
+    height: auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button-dos button {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    background: transparent;
+    border-radius: 1.6rem;
+    border: solid 3px #000;
+    padding: 2rem;
+}
+
+

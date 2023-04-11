@@ -1,0 +1,32 @@
+.container-proyect {
+    width: 100%;
+    height: auto;
+    padding: 4rem 0 2rem 0;
+    background-color: black;
+}
+
+
+/* - - - - - - - - - -   Imagen   - - - - - - - - - - */
+
+
+.container-imagen-proyecto img {
+    width: 100%;
+}
+
+
+/* - - - - - - - - - -   Titulo   - - - - - - - - - - */
+
+
+.container-imagen-proyecto h1 {
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: -10rem;
+}
+
+.arrow {
+    margin-left: .4rem;
+    font-weight: 300;
+}
