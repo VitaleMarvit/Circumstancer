@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Circumstancer/static/css/main.f36cedfb.css",
+    "main.js": "/Circumstancer/static/js/main.b6ba0804.js",
+    "static/media/circumstancer-fondo.png": "/Circumstancer/static/media/circumstancer-fondo.bdedfb3c2e8c5140ae9e.png",
+    "static/media/Circumstancer1.png": "/Circumstancer/static/media/Circumstancer1.7e4380115af87d92718b.png",
+    "static/media/juli.png": "/Circumstancer/static/media/juli.c5562cd26fb4483df1ea.png",
+    "static/media/pipi.png": "/Circumstancer/static/media/pipi.3a91ee2e330e84cabaf0.png",
+    "static/media/dani.png": "/Circumstancer/static/media/dani.fbf7ae92cec629578b28.png",
+    "static/media/lea.png": "/Circumstancer/static/media/lea.43921ac7a6d98c495b23.png",
+    "static/media/virginia.png": "/Circumstancer/static/media/virginia.728009947e5c2288c18d.png",
+    "static/media/yo.png": "/Circumstancer/static/media/yo.f367e858bd3a1f662349.png",
+    "static/media/proyect.png": "/Circumstancer/static/media/proyect.0883b135b3f829cadd7a.png",
+    "static/media/tresseis.png": "/Circumstancer/static/media/tresseis.d9d513c91c00e993c643.png",
+    "static/media/opensea.svg": "/Circumstancer/static/media/opensea.1f5996d837c8e0253830785a0d3c70de.svg",
+    "static/media/etherscan.svg": "/Circumstancer/static/media/etherscan.4cdd5445df6bf3e900277ecc96bffb42.svg",
+    "index.html": "/Circumstancer/index.html",
+    "main.f36cedfb.css.map": "/Circumstancer/static/css/main.f36cedfb.css.map",
+    "main.b6ba0804.js.map": "/Circumstancer/static/js/main.b6ba0804.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f36cedfb.css",
+    "static/js/main.b6ba0804.js"
+  ]
+}
