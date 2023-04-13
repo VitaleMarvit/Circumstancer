@@ -16,6 +16,15 @@
     color: white;
 }
 
+.imagen-mobile {
+    width: 100%;
+}
+
+.imagen {
+    display: none;
+    width: 100%;
+}
+
 .container-titulo h1 {
     font-size: 4.4rem;
     font-weight: 600;

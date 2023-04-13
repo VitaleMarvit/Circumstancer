@@ -1,8 +1,8 @@
 import React from "react-dom";
 import './index.css';
 import { Link } from "react-scroll";
-import tres from './tresseis.png';
-import logo from './logo.png';
+import tres from './tresseis.svg';
+import logo from './logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import opensea from '../Nav/opensea.svg';
@@ -19,33 +19,33 @@ function Footer() {
 
             <ul className="container-rrss-footer">
                 <li>
-                    <Link className="rrss-link-footer">
+                    <a href="" className="rrss-link-footer">
                         <img className=" ether-footer" src={ether}/>
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link-footer">
+                    <a href="" className="rrss-link-footer">
                         <img className=" opensea-footer" src={opensea}/>
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link-footer">
+                    <a href="https://discord.com/invite/vUrhRsEBSG" className="rrss-link-footer">
                         <FontAwesomeIcon icon={faDiscord} />
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link-footer">
+                    <a href="https://www.instagram.com/circumstancer_/" className="rrss-link-footer">
                         <FontAwesomeIcon className="insta-footer" icon={faInstagram} />
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link-footer">
+                    <a href="https://twitter.com/Circumstancer_" className="rrss-link-footer">
                         <FontAwesomeIcon icon={faTwitter} />
-                    </Link>
+                    </a>
                 </li>
             </ul>
 

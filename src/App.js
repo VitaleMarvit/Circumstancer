@@ -1,38 +1,15 @@
-import React from 'react';
-import './App.css';
-import { Decentralized } from './Components/Decentralized';
-import { Header } from './Components/Header';
-import { Nav } from './Components/Nav/Index';
-import { WhoIs } from './Components/WhoIs';
-import { Utilities } from './Components/Utilities';
-import { Proyect } from './Components/369Proyect';
-import { Roadmap } from './Components/RoadMap';
-import { Team } from './Components/Team';
-import { Footer } from './Components/Footer';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { Circumstancer } from "./Routes/AppCircumstancer";
+import { Land } from './Routes/AppLand'
 
-
-function App() {
-  return (
-    <React.Fragment>
-      <Nav />
-
-      <Header />
-
-      <WhoIs />
-
-      <Decentralized />
-
-      <Utilities />
-
-      <Proyect />
-
-      <Roadmap />
-      
-      <Team />
-
-      <Footer />
-    </React.Fragment>
-  );
+function App(){
+    return (
+        <Routes>
+            <Route exact path="/" element={<Circumstancer />} />
+            <Route exact path="/369Proyect" element={<Land />} />
+        </Routes>
+    )
 }
 
 export default App;

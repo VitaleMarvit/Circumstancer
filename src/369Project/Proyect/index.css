@@ -1,0 +1,43 @@
+.section-container-proyect-land {
+    background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+    top: -0.2rem;
+    padding-bottom: 4rem;
+}
+
+/* - - - - - - - - - -   Imagen y Titulo   - - - - - - - - - - */
+
+.container-img-titulo-land {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-img-titulo-land img {
+    width: 50%;
+}
+.container-img-titulo-land h1 {
+    font-size: 2.4rem;
+    font-weight: 200;
+    position: absolute;
+    top: 10%;
+    left: 19%;
+}
+
+/* - - - - - - - - - -   Texto   - - - - - - - - - - */
+
+.container-texto-proyect-land {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.6rem;
+}

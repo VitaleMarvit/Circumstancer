@@ -1,3 +1,9 @@
+.section-whois {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+
 .container-whois {
     width: 85%;
     height: auto;
@@ -9,6 +15,12 @@
     
 }
 
+.imagenes {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 /* - - - - - - - - - -   Imagen   - - - - - - - - - - */
 
@@ -16,6 +28,10 @@
 .container-imagen-who {
     display: flex;
     justify-content: center;
+}
+
+.container-imagen-who img {
+    width: 80%;
 }
 
 
@@ -55,4 +71,8 @@
 .container-texto-who p {
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+.p-desktop {
+    display: none;
 }

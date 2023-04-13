@@ -1,0 +1,82 @@
+.section-team-land {
+    height: auto;
+    background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+    top: -0.2rem;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+}
+
+/* - - - - - - - - - -   Violeta   - - - - - - - - - - */
+
+.container-img-titulo-team-uno {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-img-titulo-team-uno img {
+    width: 68%;
+}
+
+.container-img-titulo-team-uno h1 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    position: absolute;
+    top: 11%;
+    left: 19%;
+}
+
+.container-texto-team-land-uno {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.6rem;
+}
+
+/* - - - - - - - - - -   Celeste   - - - - - - - - - - */
+
+.container-img-titulo-team-dos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container-img-titulo-team-dos img {
+    width: 68%;
+}
+
+.container-img-titulo-team-dos h1 {
+    width: 80%;
+    font-size: 2.6rem;
+    font-weight: 200;
+    position: absolute;
+    top: 51%;
+    left: 5%;
+}
+
+.container-texto-team-land-dos {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.6rem;
+}

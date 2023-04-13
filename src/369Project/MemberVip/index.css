@@ -1,0 +1,81 @@
+.section-member-vip {
+    height: auto;
+    background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+    top: -0.2rem;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+}
+
+/* - - - - - - - - - -   Verde   - - - - - - - - - - */
+
+.container-img-titulo-vip-uno {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-img-titulo-vip-uno img {
+    width: 68%;
+}
+
+.container-img-titulo-vip-uno h1 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    position: absolute;
+    top: 10.5%;
+    left: 18%;
+}
+
+.container-texto-vip-land-uno {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.6rem;
+}
+
+/* - - - - - - - - - -   Naranja   - - - - - - - - - - */
+
+.container-img-titulo-vip-dos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container-img-titulo-vip-dos img {
+    width: 70%;
+}
+
+.container-img-titulo-vip-dos h1 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    position: absolute;
+    top: 66%;
+    left: 14%;
+}
+
+.container-texto-vip-land-dos {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.8rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1.6rem;
+}

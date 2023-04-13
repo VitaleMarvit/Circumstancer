@@ -1,12 +1,12 @@
 import React from "react-dom";
 import './index.css';
 import { TfiPlus } from "react-icons/tfi";
-import lea from './lea.png'
-import juli from './juli.png'
-import pipi from './pipi.png'
-import yo from './yo.png'
-import virgi from './virginia.png'
-import dani from './dani.png'
+import lea from './team-leandro.svg'
+import juli from './team-julieta.svg'
+import pipi from './team-pipi.svg'
+import yo from './team-mariano.svg'
+import virgi from './team-virginia.svg'
+import dani from './dani.svg'
 
 
 function Team() {
@@ -73,10 +73,10 @@ function Team() {
             <div className="container-info-team">
                 {/* <FontAwesomeIcon className="plus-team" icon={faPlus} /> */}
                 <TfiPlus className="plus-team" />
-
-                <h3>TRABAJA CON NOSOTROS.</h3>
-
-                <p>Estamos en constante crecimiento, envianos tu CV a hello@circumstancer.com y escribenos por las redes para hacérnoslo saber.</p>
+                <div>
+                    <h3>TRABAJA CON NOSOTROS.</h3>
+                    <p>Estamos en constante crecimiento, envianos tu CV a hello@circumstancer.com y escribenos por las redes para hacérnoslo saber.</p>
+                </div>
             </div>
         </section>
     )

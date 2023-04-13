@@ -1,12 +1,19 @@
 import React from "react";
 import './index.css';
-import imagenHeader from './circumstancer-fondo.png'
+import videoPortada from './header-desktop.mp4'
+import videoPortadaMobile from './header-mobile.mp4'
 
 function Header() {
     return (
         <section id="header" className="section-header">
             <div>
-                <img src={imagenHeader} className="imagen-header" />
+                <video className="video-fondo-desktop" autoPlay="autoplay" loop={true} muted defaultmuted="true" playsInline={true} disablePictureInPicture={true} >
+                    <source src={videoPortada} className="video-header" type="video/mp4" />
+                </video>    
+
+                <video className="video-fondo" autoPlay="autoplay" loop={true} muted defaultmuted="true" playsInline={true} disablePictureInPicture={true} >
+                    <source src={videoPortadaMobile} className="video-header-mobile" type="video/mp4" />
+                </video>    
             </div>
 
             <div className="container-general-header">

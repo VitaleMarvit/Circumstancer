@@ -1,0 +1,30 @@
+.section-header-land {
+    position: relative;
+    background-color: #1e1e1e;
+}
+
+/* - - - - - - - - - -   Imagen   - - - - - - - - - - */
+
+.imagen-land-desktop {
+    display: none;
+    width: 100%;
+}
+
+.imagen-land-mobile {
+    width: 100%;
+}
+
+/* - - - - - - - - - -   Texto   - - - - - - - - - - */
+
+.container-texto-header-land {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 18%;
+    top: 43vh;
+    width: 45%;
+    color: #fff;
+    font-size: 1.2rem;
+    row-gap: 1.4rem;
+}
+

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import opensea from './opensea.svg'
+import logonav from './logo.png'
 
 function Nav() {
 
@@ -27,11 +28,13 @@ function Nav() {
 
             <ul className={hamburguer ? "ul-seccions ul-seccions-active" : "ul-seccions"}>
                 <li className="li-uno-secciones">
-                    <Link to="header" className="a-link">I</Link>
+                    <Link to="header" className="a-link">
+                        <img className="logo-nav" src={logonav} />
+                    </Link>
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="who" className="a-link" offset={-65}
+                    <Link to="who" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         WHO IS
@@ -39,7 +42,7 @@ function Nav() {
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="decentralized" className="a-link" offset={-65}
+                    <Link to="decentralized" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         DESCENTRALIZED
@@ -47,7 +50,7 @@ function Nav() {
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="utilities" className="a-link" offset={-65}
+                    <Link to="utilities" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         UTILITIES
@@ -55,7 +58,7 @@ function Nav() {
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="proyect" className="a-link" offset={-65}
+                    <Link to="proyect" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         369 PROJECT
@@ -63,7 +66,7 @@ function Nav() {
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="roadmap" className="a-link" offset={-65}
+                    <Link to="roadmap" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         ROAD MAP
@@ -71,7 +74,7 @@ function Nav() {
                 </li>
 
                 <li onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}>
-                    <Link to="team" className="a-link" offset={-65}
+                    <Link to="team" className="a-link" offset={-50}
                         onClick={() => {return (setHamburguer(!hamburguer), setHamEffect(!hamEffect))}}
                     >
                         TEAM
@@ -81,27 +84,27 @@ function Nav() {
                 
             <ul className="ul-redes">
                 <li>
-                    <Link className="rrss-link">
+                    <a href="" className="rrss-link">
                         <img className="rrss" src={opensea}/>
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link">
+                    <a href="https://discord.com/invite/vUrhRsEBSG" className="rrss-link">
                         <FontAwesomeIcon className="rrss" icon={faDiscord} />
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link">
+                    <a href="https://www.instagram.com/circumstancer_/" className="rrss-link">
                         <FontAwesomeIcon className="rrss" icon={faInstagram} />
-                    </Link>
+                    </a>
                 </li>
 
                 <li>
-                    <Link className="rrss-link">
+                    <a href="https://twitter.com/Circumstancer_" className="rrss-link">
                         <FontAwesomeIcon className="rrss" icon={faTwitter} />
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </nav>

@@ -9,7 +9,21 @@
 /* - - - - - - - - - -   Imagen   - - - - - - - - - - */
 
 
-.imagen-header {
+.video-header {
+    display: none;
+    width: 100%;
+}
+
+.video-fondo-desktop {
+    display: none;
+    width: 100%;
+}
+
+.video-fondo {
+    width: 100%;
+}
+
+.video-header-mobile {
     width: 100%;
 }
 
@@ -50,6 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 }
 
 .container-button-uno button {
@@ -88,6 +103,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 }
 
 .container-button-dos button {
