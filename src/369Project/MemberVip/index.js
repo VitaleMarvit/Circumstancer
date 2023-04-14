@@ -6,7 +6,7 @@ import orange from './block-orange.svg'
 function MemberVip() {
     return (
         <section className="section-member-vip">
-            <div>
+            <div className="beneficios-land">
                 <div className="container-img-titulo-vip-uno" id="vip">
                     <img src={green} />
                     <h1>Beneficios de trabajar<br/> con nosotros:</h1>
@@ -21,7 +21,7 @@ function MemberVip() {
                 </div>
             </div>
 
-            <div>
+            <div className="tools-land">
                 <div className="container-img-titulo-vip-dos">
                     <img src={orange} />
                     <h1>369 Tools</h1>

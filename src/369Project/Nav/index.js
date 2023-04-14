@@ -14,15 +14,15 @@ function NavLand() {
     return (
         <nav className="nav-land">
 
-            <div id="hamburguer" className={hamburguer ? "three col filter" : "three col"} onClick={() => {setHamburguer(!hamburguer)}}>
+            <div id="hamburguer-land" className={hamburguer ? "three col filter" : "three col"} onClick={() => {setHamburguer(!hamburguer)}}>
                 <div 
-                    className={hamEffect ? 'hamburger is-active' : 'hamburger'} 
+                    className={hamEffect ? 'hamburger-land is-active' : 'hamburger-land'} 
                     onClick={() => setHamEffect(!hamEffect)}
                     id="hamburger-6"
                 >
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
+                    <span className="line-land"></span>
+                    <span className="line-land"></span>
+                    <span className="line-land"></span>
                 </div>
             </div>  
 

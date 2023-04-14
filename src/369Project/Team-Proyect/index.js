@@ -6,7 +6,7 @@ import lightBlue from './block-blue.svg'
 function TeamLand() {
     return (
         <section className="section-team-land" id="team-land">
-            <div>
+            <div className="socios-land">
                 <div className="container-img-titulo-team-uno">
                     <img src={purple} />
                     <h1>Nuestros socios son <br/> nuestra comunidad</h1>
@@ -17,7 +17,7 @@ function TeamLand() {
                 </div>
             </div>
 
-            <div>
+            <div className="regalias-land">
                 <div className="container-img-titulo-team-dos">
                     <img src={lightBlue} />
                     <h1>Obtén regalías en todos los proyectos que se lancen con 369</h1>

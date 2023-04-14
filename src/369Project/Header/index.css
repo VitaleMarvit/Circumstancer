@@ -8,7 +8,7 @@
 .imagen-land-desktop {
     display: none;
     width: 100%;
-}
+} 
 
 .imagen-land-mobile {
     width: 100%;
@@ -20,11 +20,17 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 18%;
-    top: 43vh;
-    width: 45%;
     color: #fff;
     font-size: 1.2rem;
+}
+
+.container-textos {
+    position: absolute;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
     row-gap: 1.4rem;
+    top: 68%;
+    left: 19%;
 }
 

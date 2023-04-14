@@ -25,7 +25,7 @@ body {
   
 
 
-/* - - - - - - - - - - - - - -   Media Queries   - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - -   Media Queries Circumstancer   - - - - - - - - - - - - - - */
 
 
 
@@ -1163,5 +1163,791 @@ body {
   .insta-footer {
     font-size: 2rem;
   }
+
+}
+
+
+
+/* - - - - - - - - - - - - - -   Media Queries Land   - - - - - - - - - - - - - - */
+
+
+
+@media screen and (min-width: 375px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  #hamburguer
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 1.3rem;
+  }
+
+  .container-textos {
+    top: 67%;
+    left: 18%;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 10.5%;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-dos h1 {
+    top: 67.5%;
+  }
+
+  .container-img-titulo-team-uno h1 {
+    top: 11.5%;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+
+
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 393px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  .a-link-land {
+    font-size: 2rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+  
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 11%;
+    left: 19%;
+  }
+
+  .container-img-titulo-utilidades-land h1 {
+    top: 14%;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    top: 11%;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 68%;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  
+
+  /* - - - - - -   Team   - - - - - - */
+
+
+  
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 480px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 1.6rem;
+  }
+
+  .container-textos {
+    top: 68%;
+    left: 19%;
+    row-gap: 2.4rem;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 14%;
+    font-size: 2.8rem;
+  }  
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .container-img-titulo-utilidades-land h1 {
+    top: 16%;
+    font-size: 3.2rem;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    top: 12.5%;
+    left: 19%;
+    font-size: 3.2rem;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 70%;
+    font-size: 3.6rem;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .container-img-titulo-team-uno h1 {
+    top: 13.5%;
+    font-size: 3.2rem;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 3.2rem;
+    top: 52%;
+  }
+  
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 600px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  #hamburguer-land {
+    height: 45px;
+    width: 45px;
+  }
+
+  .hamburger-land .line-land {
+    width: 23px;
+  }
+
+  .ul-seccions-land {
+    row-gap: 2.8rem;
+  }
+
+  .a-link-land {
+    font-size: 2.4rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 2rem;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 17%;
+    font-size: 3.2rem;
+  }
+
+  .container-texto-proyect-land {
+    font-size: 2rem;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .container-img-titulo-utilidades-land h1 {
+    font-size: 4rem;
+  }
+
+  .container-texto-utilidades-land {
+    font-size: 2rem;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    top: 13%;
+    font-size: 3.6rem;
+  }
+
+  .container-texto-vip-land-uno {
+    font-size: 2rem;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 71%;
+    left: 18%;
+  }
+
+  .container-texto-vip-land-dos {
+    font-size: 2rem;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .container-img-titulo-team-uno h1 {
+    top: 14%;
+    font-size: 3.6rem;
+  }
+
+  .container-texto-team-land-uno {
+    font-size: 2rem;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 3.6rem;
+    top: 52%;
+    width: 70%;
+  }
+
+  .container-texto-team-land-dos {
+    font-size: 2rem;
+  }
+  
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 768px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  #hamburguer-land {
+    height: 55px;
+    width: 55px;
+  }
+
+  .hamburger-land .line-land {
+    width: 29px;
+    height: 4px;
+    margin: 5px auto;
+  }
+
+  #hamburger-6.is-active .line-land:nth-child(3) {
+    transform: translateY(-9px) rotate(90deg);
+  }
+
+  #hamburger-6.is-active .line-land:nth-child(1) {
+    transform: translateY(9px);
+  }
+
+  .a-link-land {
+    font-size: 2.8rem;
+  }
+
+  .ul-seccions-land {
+    row-gap: 4rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 2.6rem;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 17%;
+    font-size: 4rem;
+  }
+
+  .container-texto-proyect-land {
+    font-size: 2.4rem;
+    row-gap: 2.4rem;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .container-img-titulo-utilidades-land h1 {
+    font-size: 4.8rem;
+  }
+
+  .container-texto-utilidades-land {
+    font-size: 2.4rem;
+    row-gap: 3.2rem;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    top: 13.5%;
+    font-size: 4.4rem;
+  }
+
+  .container-texto-vip-land-uno {
+    font-size: 2.4rem;
+    row-gap: 2.4rem;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 72%;
+    left: 20%;
+    font-size: 4.4rem;
+  }
+
+  .container-texto-vip-land-dos {
+    font-size: 2.4rem;
+    row-gap: 2.4rem;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .container-img-titulo-team-uno h1 {
+    top: 15%;
+    font-size: 4.4rem;
+  }
+  
+  .container-texto-team-land-uno {
+    font-size: 2.4rem;
+    row-gap: 2.4rem;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 4.4rem;
+    top: 51%;
+  }
+
+  .container-texto-team-land-dos {
+    font-size: 2.4rem;
+    row-gap: 2.4rem;
+  }
+  
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 820px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  .ul-seccions-land {
+    row-gap: 4.4rem;
+  }
+
+  .a-link-land {
+    font-size: 3.2rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 2.8rem;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-utilidades-land h1 {
+    font-size: 5.2rem;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    font-size: 4.8rem;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 73%;
+    font-size: 5.2rem;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .container-img-titulo-team-uno h1 {
+    top: 16%;
+    font-size: 4.8rem;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 4.8rem;
+    top: 53%;
+  }
+
+  /* - - - - - -   Footer   - - - - - - */
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+  #hamburguer-land {
+    height: 65px;
+    width: 65px;
+  }
+
+  .hamburger-land .line-land {
+    width: 32px;
+    height: 5px;
+    margin: 6px auto;
+  }
+
+  #hamburger-6.is-active .line-land:nth-child(3) {
+    transform: translateY(-11px) rotate(90deg);
+  }
+
+  #hamburger-6.is-active .line-land:nth-child(1) {
+    transform: translateY(11px);
+  }
+
+  .a-link-land {
+    font-size: 4.4rem;
+  }
+
+  .ul-seccions-land {
+    row-gap: 4.4rem;
+    padding: 2rem;
+  }
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .container-texto-header-land {
+    font-size: 3.6rem;
+  }
+
+  .container-textos {
+    row-gap: 4rem;
+}
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .container-img-titulo-land h1 {
+    top: 17%;
+    font-size: 5.2rem;
+  }
+
+  .container-texto-proyect-land {
+    font-size: 3.2rem;
+    row-gap: 3.2rem;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .container-img-titulo-utilidades-land h1 {
+    font-size: 5.6rem;
+    top: 18%;
+  }
+
+  .container-texto-utilidades-land {
+    font-size: 3.2rem;
+    row-gap: 3.2rem;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .container-img-titulo-vip-uno h1 {
+    top: 13.5%;
+    font-size: 5.2rem;
+  }
+
+  .container-texto-vip-land-uno {
+    font-size: 3.2rem;
+    row-gap: 2.8rem;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 72.5%;
+    left: 20%;
+    font-size: 6rem;
+  }
+
+  .container-texto-vip-land-dos {
+    font-size: 3.2rem;
+    row-gap: 2.8rem;
+  }
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .container-img-titulo-team-uno h1 {
+    top: 15%;
+    font-size: 5.2rem;
+  }
+  
+  .container-texto-team-land-uno {
+    font-size: 3.2rem;
+    row-gap: 2.8rem;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 5.2rem;
+    width: 60%;
+    top: 51%;
+  }
+
+  .container-texto-team-land-dos {
+    font-size: 3.2rem;
+    row-gap: 2.8rem;
+  }
+  
+  /* - - - - - -   Footer   - - - - - - */
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* - - - - - -   Nav   - - - - - - */
+
+
+  .nav {
+    padding: 0 5.2rem;
+  }
+
+  #hamburguer-land {
+    display: none;
+  }
+
+  .ul-redes {
+    display: flex;
+  }
+
+  .ul-seccions-land {
+    width: auto;
+    height: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 2rem;
+    position: static;
+    top: calc(10vh - 1px);
+    left: -100%;
+    transition: all .5s ease-in-out;
+  }
+
+  .ul-seccions-land li {
+    width: auto;
+    padding: 1.2rem;
+    border-bottom: none;
+  }
+
+  .li-uno-secciones{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    margin-right: 1.2rem;
+    padding: 0 !important;
+  } 
+
+  .logo-nav {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .a-link-land {
+    font-size: 1.6rem;
+  }  
+
+  /* - - - - - -   Header   - - - - - - */
+
+  .imagen-land-mobile {
+    display: none;
+  }
+
+  .imagen-land-desktop {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .container-texto-header-land {
+    font-size: 1.8rem;
+  }
+
+  .container-textos {
+    row-gap: 2rem;
+    width: 21%;
+    left: 68%;
+    top: 70%;
+  }
+
+  /* - - - - - -   369 Project   - - - - - - */
+
+  .section-container-proyect-land {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+  }
+
+  .container-texto-proyect-land {
+    font-size: 1.6rem;
+    row-gap: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 12rem;
+  }
+
+  .container-img-titulo-land h1 {
+    top: 36%;
+    left: 12%;
+    font-size: 3.2rem;
+    width: 20%;
+  }
+
+  .container-img-titulo-land img {
+    width: 100%;
+  }
+
+  /* - - - - - -   Utilities   - - - - - - */
+
+  .section-container-utilidades-land {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 1fr;
+    padding: 0;
+  }
+
+  .container-img-titulo-utilidades-land {
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+
+  .container-img-titulo-utilidades-land img {
+    width: 100%;
+  }
+
+  .container-img-titulo-utilidades-land h1 {
+    font-size: 3.2rem;
+    top: 40%;
+    left: 56%;
+  }
+
+  .container-texto-utilidades-land {
+    font-size: 1.6rem;
+    justify-content: center;
+    grid-area: 1 / 1 / 2 / 2;
+    row-gap: 3.2rem;
+  }
+
+  /* - - - - - -   Members VIP   - - - - - - */
+
+  .section-member-vip {
+    padding: 0;
+    row-gap: 0;
+  }
+
+  .beneficios-land {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 1fr;    
+  }
+
+  .container-img-titulo-vip-uno {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .container-img-titulo-vip-uno img {
+    width: 100%;
+  }
+
+  .container-img-titulo-vip-uno h1 {
+    top: 24%;
+    font-size: 3.2rem;
+    left: 12%;
+  }
+
+  .container-texto-vip-land-uno {
+    justify-content: center;
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 1.6rem;
+  }
+
+  .tools-land {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 1fr; 
+  }
+
+  .container-img-titulo-vip-dos {
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+
+  .container-img-titulo-vip-dos img {
+    width: 100%;
+  }
+
+  .container-img-titulo-vip-dos h1 {
+    top: 87%;
+    font-size: 3.2rem;
+    left: 56%;
+  }
+
+  .container-texto-vip-land-dos {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+
+  /* - - - - - -   Team   - - - - - - */
+
+  .section-team-land {
+    padding-bottom: 10rem;
+    padding-top: 0;
+    row-gap: 0;
+  }
+
+  .socios-land {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 1fr;  
+  }
+
+  .container-img-titulo-team-uno img {
+    width: 100%;
+  }
+
+  .container-img-titulo-team-uno h1 {
+    top: 25%;
+    left: 12%;
+    font-size: 3.2rem;
+  }
+
+  .container-texto-team-land-uno {
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+
+  .regalias-land {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 1fr; 
+  }
+
+  .container-img-titulo-team-dos {
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+
+  .container-img-titulo-team-dos img {
+    width: 100%;
+  }
+
+  .container-img-titulo-team-dos h1 {
+    font-size: 3.2rem;
+    width: 30%;
+    top: 68%;
+    left: 56%;
+  }
+
+  .container-texto-team-land-dos {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.6rem;
+    justify-content: center;
+  }
+  
+  /* - - - - - -   Footer   - - - - - - */
 
 }
