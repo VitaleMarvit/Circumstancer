@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Circumstancer/static/css/main.0e12b9c8.css",
-    "main.js": "/Circumstancer/static/js/main.74a5f766.js",
+    "main.css": "/Circumstancer/static/css/main.6ffb3d5d.css",
+    "main.js": "/Circumstancer/static/js/main.8f687a6f.js",
     "static/media/circumstancer-2.svg": "/Circumstancer/static/media/circumstancer-2.59ad22e9db40d9a7145b0bb742aa38f4.svg",
     "static/media/circumstancer-1.svg": "/Circumstancer/static/media/circumstancer-1.a45f76c8f76cb0929f67f6b7e2507d74.svg",
     "static/media/header-desktop.mp4": "/Circumstancer/static/media/header-desktop.b684dc5223e89e76aa34.mp4",
@@ -29,11 +29,11 @@
     "static/media/block-orange.svg": "/Circumstancer/static/media/block-orange.a086ebbc90f09efc432c6e791a383ddc.svg",
     "static/media/block-purple.svg": "/Circumstancer/static/media/block-purple.01d5597aed2c3858faa22dc2ec1010fc.svg",
     "index.html": "/Circumstancer/index.html",
-    "main.0e12b9c8.css.map": "/Circumstancer/static/css/main.0e12b9c8.css.map",
-    "main.74a5f766.js.map": "/Circumstancer/static/js/main.74a5f766.js.map"
+    "main.6ffb3d5d.css.map": "/Circumstancer/static/css/main.6ffb3d5d.css.map",
+    "main.8f687a6f.js.map": "/Circumstancer/static/js/main.8f687a6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e12b9c8.css",
-    "static/js/main.74a5f766.js"
+    "static/css/main.6ffb3d5d.css",
+    "static/js/main.8f687a6f.js"
   ]
 }
